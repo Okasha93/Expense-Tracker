@@ -24,6 +24,11 @@ A basic React Native app to track income and expenses, focusing on functionality
    npx expo start
    ```
 
+## Download the Apk
+
+```bash
+   https://expo.dev/accounts/okasha93/projects/Expense-Tracker/builds/f6878841-de85-4567-9ff9-e5cfe6b714e2
+   ```
   
 ## Architecture
 
