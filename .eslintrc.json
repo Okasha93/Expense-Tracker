@@ -1,0 +1,32 @@
+{
+    "root": true,
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:react-native/all",
+        "prettier"
+    ],
+    "plugins": ["react", "react-native"],
+    "env": {
+        "es2021": true,
+        "node": true,
+        "react-native/react-native": true
+    },
+    "rules": {
+        "no-console": "error",
+        "react/prop-types": "off"
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    }
+}

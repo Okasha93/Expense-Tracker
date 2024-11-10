@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Expense-Tracker",
+    "slug": "Expense-Tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Splash.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/Splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0000ff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "userInterfaceStyle": "automatic"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Splash.png",
+        "backgroundColor": "#0000ff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/Splash.png"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
